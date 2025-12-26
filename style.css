@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#0f0f1a;
+    color:#fff;
+}
+
+/* NAVBAR */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav a{
+    color:#ccc;
+    margin-left:30px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav a:hover,
+nav a.active{
+    color:#6c63ff;
+}
+
+/* HERO */
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 80px;
+}
+
+.hero-content h1{
+    font-size:50px;
+}
+
+.hero-content span{
+    color:#6c63ff;
+}
+
+.hero-content h3{
+    margin:15px 0;
+    color:#aaa;
+}
+
+.hero-content p{
+    max-width:450px;
+    line-height:1.6;
+    color:#bbb;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 25px;
+    background:#6c63ff;
+    color:#fff;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+.hero-img img{
+    width:320px;
+    border-radius:50%;
+    background:#6c63ff;
+    padding:10px;
+}
+
+/* SECTIONS */
+section{
+    padding:80px;
+    text-align:center;
+}
+
+section h2{
+    font-size:36px;
+    margin-bottom:20px;
+    color:#6c63ff;
+}
+
+/* SKILLS */
+.skill-box span{
+    display:inline-block;
+    margin:10px;
+    padding:10px 20px;
+    background:#1c1c2b;
+    border-radius:20px;
+}
+
+/* PROJECTS */
+.projects{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1c1c2b;
+    padding:25px;
+    width:260px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* CONTACT */
+.contact p{
+    margin:10px 0;
+    color:#ccc;
+}
