@@ -126,3 +126,106 @@ section h2{
     margin:10px 0;
     color:#ccc;
 }
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+
+/* ===== TABLET (max-width: 992px) ===== */
+@media (max-width: 992px) {
+
+    header{
+        padding:20px 40px;
+    }
+
+    .hero{
+        padding:0 40px;
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+    }
+
+    .hero-content h1{
+        font-size:42px;
+    }
+
+    .hero-content p{
+        max-width:100%;
+    }
+
+    .hero-img img{
+        width:260px;
+    }
+
+    section{
+        padding:60px 40px;
+    }
+}
+
+
+/* ===== MOBILE (max-width: 768px) ===== */
+@media (max-width: 768px) {
+
+    header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav a{
+        margin:0 10px;
+        font-size:15px;
+    }
+
+    .hero{
+        min-height:auto;
+        padding:40px 25px;
+    }
+
+    .hero-content h1{
+        font-size:32px;
+        line-height:1.3;
+    }
+
+    .hero-content h3{
+        font-size:16px;
+    }
+
+    .hero-img img{
+        width:220px;
+    }
+
+    section{
+        padding:50px 25px;
+    }
+
+    section h2{
+        font-size:28px;
+    }
+
+    .projects{
+        gap:15px;
+    }
+
+    .card{
+        width:100%;
+        max-width:350px;
+    }
+}
+
+
+/* ===== SMALL MOBILE (max-width: 480px) ===== */
+@media (max-width: 480px) {
+
+    .hero-content h1{
+        font-size:26px;
+    }
+
+    .btn{
+        padding:10px 20px;
+        font-size:14px;
+    }
+
+    nav a{
+        font-size:14px;
+    }
+}
+
